@@ -8,12 +8,7 @@ app.get('/', (req, res) => {
     let fatoAno = req.query.ano;
     let fato = buscarFatos.buscarFatosPorAno(fatoAno);
 
-    let caixaInfo = {
-        message: 'API de fatos históricos',
-        year: fato
-    };
-
-    res.json(caixaInfo);
+    res.json(fato);
 });
 
 app.listen(1000, () => {
