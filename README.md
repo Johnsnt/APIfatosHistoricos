@@ -1,5 +1,5 @@
 # fatosHistoricos
-API que retorna fatos históricos dentro dos anos de 1920 à 2020.
+API de estudos que retorna fatos históricos dentro de um período dos anos de 1920 à 2020.
 
 ## Tecnologias
 * Node.js
